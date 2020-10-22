@@ -1,0 +1,13 @@
+{
+ "totalAmount": 0,
+ "totalPrice": 0,
+ "content": [
+  {
+   "productName": "STRAWBERRY PEOPLE T-SHIRT",
+   "productPrice": 55,
+   "productImg": "https://raw.githubusercontent.com/kellolo/static/master/img/JS1_shop/featuredItem3.jpg",
+   "productId": "prod_2",
+   "amount": 2
+  }
+ ]
+}
