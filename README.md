@@ -1,19 +1,29 @@
-# project-vue-cli
+# shop_vue_demo
+## Описание 
+**Single Page Application Vue** </br>
+на примере шаблона интернет магазина с простым не полным функцоналом. </br>
+Реализованы fetch запросы для получения контента, VeuX хранилище и Router. </br>
+**Server** - NodeJS, использована библиотека express, запросы JSON.
 
-## Project setup
+
+## Установка
+Открываем два окна редактора или терминала </br>
+в первом **/shop_vue_demo/server** </br>
+во втором **/shop_vue_demo/project** </br>
+в каждом:
 ```
-npm install
+$ npm install - установка необходимых модулей
 ```
 
-### Compiles and hot-reloads for development
+### Запуск
+**/shop_vue_demo/server** 
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run api - запускаем сервер для обработки запросов
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+**/shop_vue_demo/project**
+```
+npm run serve - собираем локальный сервер для просмотра проэкта
+```
+---
+***Примечание:** подрузамевается что [Node.js](https://nodejs.org/en/) установлен
